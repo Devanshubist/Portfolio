@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devanshu Bisht - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="max-w-4xl mx-auto p-6" id="content">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-blue-400">Devanshu Bisht</h1>
+            <p class="text-gray-400">Python Developer | Web Scraping | Data Analysis</p>
+            <p class="text-gray-400">Dehradun, India | <a href="mailto:devanshubisht66@gmail.com" class="text-blue-300">devanshubisht66@gmail.com</a></p>
+        </header>
+        
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-blue-400 border-b border-blue-400 pb-2">Skills</h2>
+            <p class="mt-2">Python, Django, Flask, MySQL, Selenium, Pandas, NumPy, PDF Plumber, Pysecrets</p>
+            <p class="mt-1">Secondary: C, Java, HTML, CSS, JavaScript, Progress 4GL, Angular, IoT</p>
+            <p class="mt-1">Soft Skills: Teamwork, Communication, Time Management, Leadership, Collaboration</p>
+        </section>
+        
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-blue-400 border-b border-blue-400 pb-2">Work Experience</h2>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold text-blue-300">Software Engineer, MPS LTD</h3>
+                <p class="text-gray-400">Feb 2023 – Present, Dehradun</p>
+                <ul class="list-disc list-inside mt-2">
+                    <li>Developed Python scripts for data extraction from Web APIs, ensuring compliance with client requirements.</li>
+                    <li>Created a data scraping tool using Selenium, Pytesseract, and PDF Plumber.</li>
+                    <li>Designed a custom CMS using Django for structured data management.</li>
+                </ul>
+            </div>
+            
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold text-blue-300">Associate Consultant, JK TECH</h3>
+                <p class="text-gray-400">Jan 2022 – Jan 2023, Noida</p>
+                <ul class="list-disc list-inside mt-2">
+                    <li>Trained in Progress 4GL and developed a Student Management System.</li>
+                    <li>Worked on the JELD-WEN project, providing application support.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-blue-400 border-b border-blue-400 pb-2">Projects</h2>
+            <ul class="list-disc list-inside mt-2">
+                <li>Raw Logs Feed Processor (Python, Pandas)</li>
+                <li>Fetcher Tool (JavaScript)</li>
+                <li>Web Scraper Tool (Python, Selenium) - California Court</li>
+            </ul>
+        </section>
+        
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-blue-400 border-b border-blue-400 pb-2">Education</h2>
+            <p>Master of Computer Application, Chandigarh University (8.4 CGPA) | 2019-2021</p>
+            <p>Bachelor of Information Technology, DAV PG College (6.6 CGPA) | 2016-2019</p>
+        </section>
+        
+        <footer class="text-center mt-8 text-gray-500">
+            <p>&copy; 2025 Devanshu Bisht. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script>
+        gsap.from("#content", { opacity: 0, y: 50, duration: 1.5, ease: "power3.out" });
+        gsap.from("h1", { opacity: 0, x: -50, duration: 1, delay: 0.5, ease: "power3.out" });
+        gsap.from("section", { opacity: 0, y: 30, duration: 1, stagger: 0.3, ease: "power3.out" });
+    </script>
+</body>
+</html>
